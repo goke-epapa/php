@@ -19,6 +19,7 @@ depends 'iis'
 end
 
 recipe 'php', 'Installs php'
+recipe 'php::ini', 'Configures values in php.ini file' 
 recipe 'php::package', 'Installs php using packages.'
 recipe 'php::source', 'Installs php from source.'
 recipe 'php::module_apc', 'Install the php5-apc package'
